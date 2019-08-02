@@ -46,7 +46,7 @@ class DayPicker extends React.Component {
   }
 
   render() {
-    const DAYSOFWEEK = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+    const DAYSOFWEEK = ['SUN', 'MON', 'TUE', 'WED', 'THUR', 'FRI', 'SAT'];
     return (
       <div className={styles.calendarContainer}>
         <div className={styles.calendar}>

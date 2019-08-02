@@ -34,10 +34,7 @@ class App extends Component {
 			<div className={styles.masterContainer}> 
 				{this.state.loggedIn ? <MainDisplay view={this.state.view} loggedIn={this.state.loggedIn} /> : <LoginPage openLoginPopup={this.openLoginPopup} />}
 			</div>
-
 		)
-
-
   }
 }
 
